@@ -73,6 +73,11 @@
             <p>
                 {{ $installer }}
             </p>
+        @if($installer != 'TODO')
+            <p>false</p>
+        @else
+            <p>true</p>
+        @endif
     </div>
 </div>
 </body>
