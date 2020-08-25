@@ -14,17 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
-Route::get('/install', function() {
-   return view('install', ['installer' => 'TODO']);
+Route::get('/oxygen/install', function() {
+
+   $pizzas = [
+       ['type' => 'hawaiian', 'base' => 'cheesy crust'],
+       ['type' => 'volcano', 'base' => 'garlic crust'],
+       ['type' => 'veg supreme', 'base' => 'this & crispy']
+   ];
+
+   return view('install', ['pizzas' => $pizzas]);
 });
 
-Auth::routes();
+Route::get('/oxygen/', function () {
 
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+   return view('details');
+});

@@ -1,3 +1,5 @@
+@extends('layouts.layout')
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -68,17 +70,20 @@
 
     <div class="content">
         <div class="title m-b-md">
-            Oxygen
+            Oxygen Installer
         </div>
-            <p>
-                {{ $installer }}
-            </p>
-        @if($installer != 'TODO')
-            <p>false</p>
-        @else
-            <p>true</p>
-        @endif
+
+       <!-- @foreach($pizzas as $pizza)
+            <div>
+                {{ $loop->index+1 }}: {{ $pizza['type'] }} -- {{ $pizza['base'] }}
+                @if($loop->first)
+                    <span>- First</span>
+                @endif
+                @if($loop->last)
+                    <span>- Last</span>
+                @endif
+            </div>
+        @endforeach -->
+
     </div>
 </div>
-</body>
-</html>
