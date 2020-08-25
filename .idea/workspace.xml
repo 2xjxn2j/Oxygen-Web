@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="561609d9-1aae-4652-9fa3-f5bd6ef199b2" name="Default Changelist" comment="Pushed latest code">
-      <change afterPath="$PROJECT_DIR$/resources/views/details.blade.php" afterDir="false" />
+    <list default="true" id="561609d9-1aae-4652-9fa3-f5bd6ef199b2" name="Default Changelist" comment="Welcome &gt; Index">
+      <change afterPath="$PROJECT_DIR$/backend/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/install.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/install.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/oxygen.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/oxygen.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="composer.json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -154,12 +154,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1gX0yuIcCA8v571cEGhnwVwC1f3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -198,7 +201,7 @@
       <workItem from="1598247449863" duration="5125000" />
       <workItem from="1598253081325" duration="2000000" />
       <workItem from="1598288527773" duration="4631000" />
-      <workItem from="1598323897620" duration="2773000" />
+      <workItem from="1598323897620" duration="5031000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing Laravel code...">
       <created>1598252741376</created>
@@ -228,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598323975869</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Welcome &gt; Index">
+      <created>1598333896284</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598333896284</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,10 +257,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Pushing Laravel code..." />
     <MESSAGE value="Simple checker push" />
     <MESSAGE value="Pushed latest code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pushed latest code" />
+    <MESSAGE value="Welcome &gt; Index" />
+    <option name="LAST_COMMIT_MESSAGE" value="Welcome &gt; Index" />
   </component>
   <component name="WindowStateProjectService">
     <state x="610" y="309" key="#Composer" timestamp="1598245900755">
@@ -286,11 +298,11 @@
     </state>
     <state x="-1169" y="75" key="SettingsEditor/1600.0.1440.860/0.0.1600.860/-1440.0.1440.860@-1440.0.1440.860" timestamp="1598252435574" />
     <state x="382" y="62" key="SettingsEditor/1600.0.1440.860/0.0.1600.860/-1440.0.1440.860@0.0.1600.860" timestamp="1598253755558" />
-    <state x="-1144" y="246" key="Vcs.Push.Dialog.v2" timestamp="1598323982546">
-      <screen x="-1440" y="0" width="1440" height="860" />
+    <state x="329" y="246" key="Vcs.Push.Dialog.v2" timestamp="1598333903737">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="-1144" y="246" key="Vcs.Push.Dialog.v2/1600.0.1440.860/0.0.1600.860/-1440.0.1440.860@-1440.0.1440.860" timestamp="1598323982546" />
-    <state x="329" y="246" key="Vcs.Push.Dialog.v2/1600.0.1440.860/0.0.1600.860/-1440.0.1440.860@0.0.1600.860" timestamp="1598253696463" />
+    <state x="329" y="246" key="Vcs.Push.Dialog.v2/1600.0.1440.860/0.0.1600.860/-1440.0.1440.860@0.0.1600.860" timestamp="1598333903737" />
     <state x="617" y="340" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598333225917">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
